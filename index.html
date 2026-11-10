@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101210">
+  <meta name="description" content="Scooters, motos e bicicletas elétricas na Electric-Way, em Lauro de Freitas. Conheça os modelos e fale com nossa equipe pelo WhatsApp.">
+  <title>Electric-Way | Mobilidade elétrica</title>
+  <link rel="icon" type="image/png" href="assets/electric-way-logo-original.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Electric-Way, início"><img src="assets/electric-way-logo-original.png" alt="Electric-Way — Mobilidade elétrica"></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#catalogo">Modelos</a><a href="#acessorios">Acessórios</a><a href="#pos-venda">Pós-venda</a><a href="#loja">A loja</a>
+        <a class="nav-contact" href="https://wa.me/message/5ED45F2RN6EWA1" target="_blank" rel="noopener">Fale conosco <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio">
+      <div class="hero-photo" role="img" aria-label="Interior do showroom Electric-Way com scooters elétricas"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span></span> LAURO DE FREITAS · BAHIA</p>
+        <h1>Seu próximo caminho<br>começa <em>elétrico.</em></h1>
+        <p class="hero-copy">Mobilidade para o dia a dia, com atendimento próximo e suporte direto na loja.</p>
+        <div class="hero-actions"><a class="button button-green" href="#catalogo">Conheça os modelos <span>→</span></a><a class="button button-outline" href="https://wa.me/message/5ED45F2RN6EWA1" target="_blank" rel="noopener">Conversar no WhatsApp</a></div>
+      </div>
+      <div class="hero-note"><span class="note-dot"></span> Atendimento presencial em Lauro de Freitas</div>
+    </section>
+
+    <section class="catalog-section section" id="catalogo">
+      <div class="container">
+        <div class="section-heading heading-row">
+          <div><p class="eyebrow eyebrow-dark">ESCOLHA A SUA</p><h2>Mobilidade do seu jeito.</h2><p class="section-intro">Conheça os modelos disponíveis na Electric-Way.</p></div>
+          <a class="text-link desktop-link" href="https://wa.me/message/5ED45F2RN6EWA1" target="_blank" rel="noopener">Consulte disponibilidade <span>↗</span></a>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-box"><span class="sr-only">Buscar modelo</span><span aria-hidden="true">⌕</span><input id="search-model" type="search" placeholder="Buscar modelo" autocomplete="off"></label>
+          <div class="filter-tabs" role="group" aria-label="Filtrar categoria"><button class="filter-tab is-active" data-filter="todos" type="button" aria-pressed="true">Todos</button><button class="filter-tab" data-filter="scooter" type="button" aria-pressed="false">Scooters</button><button class="filter-tab" data-filter="bike" type="button" aria-pressed="false">E-bike</button></div>
+          <label class="sort-label"><span class="sr-only">Ordenar produtos</span><select id="sort-model"><option value="default">Ordenar</option><option value="price-asc">Menor preço</option><option value="price-desc">Maior preço</option><option value="name">Nome</option></select></label>
+        </div>
+        <div id="product-grid" class="product-grid" aria-live="polite"></div>
+        <p id="no-results" class="no-results" hidden>Nenhum modelo encontrado. Tente outro termo ou filtro.</p>
+        <p class="catalog-footnote">Valores informados pela loja. Consulte disponibilidade, cores e condições atualizadas pelo WhatsApp.</p>
+      </div>
+    </section>
+
+    <section class="brand-story section" id="sobre">
+      <div class="container story-grid">
+        <div class="story-image"><img src="assets/fachada-electric-way.jpg" alt="Fachada e ambiente da Electric-Way" loading="lazy"></div>
+        <div class="story-copy"><p class="eyebrow">PERTO DE VOCÊ</p><h2>Mais do que escolher um veículo. É ter com quem contar.</h2><p>A Electric-Way reúne modelos de mobilidade elétrica, acessórios e atendimento presencial em Lauro de Freitas.</p><a class="text-link light-link" href="#loja">Conheça nossa loja <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="accessories-section section" id="acessorios">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow eyebrow-dark">COMPLEMENTE SUA EXPERIÊNCIA</p><h2>Acessórios e praticidade.</h2><p class="section-intro">Consulte os itens disponíveis na loja.</p></div>
+        <div class="accessory-grid">
+          <article class="accessory-item"><span class="accessory-symbol">01</span><h3>Capacetes</h3></article>
+          <article class="accessory-item"><span class="accessory-symbol">02</span><h3>Capas de chuva</h3></article>
+          <article class="accessory-item"><span class="accessory-symbol">03</span><h3>Compressores</h3></article>
+          <article class="accessory-item"><span class="accessory-symbol">04</span><h3>Cadeados</h3></article>
+          <article class="accessory-item"><span class="accessory-symbol">05</span><h3>Travas com senha</h3></article>
+          <article class="accessory-item"><span class="accessory-symbol">06</span><h3>Mini bags</h3></article>
+        </div>
+        <a class="button button-dark" href="https://wa.me/message/5ED45F2RN6EWA1" target="_blank" rel="noopener">Consultar acessórios <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="aftercare section" id="pos-venda">
+      <div class="container aftercare-inner">
+        <div><p class="eyebrow">DEPOIS DA COMPRA</p><h2>Suporte que continua com você.</h2><p class="aftercare-intro">Conte com a Electric-Way também no pós-venda.</p></div>
+        <div class="aftercare-points"><article><span>01</span><div><h3>Garantia</h3><p>1 ano para bateria e parte elétrica, contado a partir da data da compra.</p></div></article><article><span>02</span><div><h3>Manutenção</h3><p>Se precisar, o atendimento de manutenção é feito na própria Electric-Way.</p></div></article><article><span>03</span><div><h3>Peças e acessórios</h3><p>Você também encontra peças e acessórios diretamente na loja.</p></div></article></div>
+      </div>
+    </section>
+
+    <section class="visit-section section" id="loja">
+      <div class="container visit-grid">
+        <div class="visit-copy"><p class="eyebrow eyebrow-dark">VENHA NOS VISITAR</p><h2>Estamos em Lauro de Freitas.</h2><p>Shopping Open Center, ao lado do Shopping Estrada do Coco, em frente ao Condomínio Águas e à Tailândia Material de Construção e Madeireira.</p><a class="button button-green" href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x7163f70f5c5e985:0x6913f758d8e9ac32" target="_blank" rel="noopener">Abrir localização <span>↗</span></a></div>
+        <div class="visit-details"><div class="detail-block"><span class="detail-label">ENDEREÇO</span><p>Av. Santos Dumont, 6394 · Loja 06<br>Shopping Open Center<br>Lauro de Freitas – BA · 42701-260</p></div><div class="detail-block"><span class="detail-label">HORÁRIO DE FUNCIONAMENTO</span><p>Segunda a sexta · 08h30 às 17h30<br>Sábado · 08h30 às 14h<br>Domingo · Fechado</p></div><div class="visit-social"><a href="https://wa.me/message/5ED45F2RN6EWA1" target="_blank" rel="noopener">WhatsApp ↗</a><a href="https://www.instagram.com/electricway.ba/" target="_blank" rel="noopener">Instagram ↗</a></div></div>
+      </div>
+    </section>
+
+    <section class="closing-cta"><div class="container closing-inner"><div><p class="eyebrow">VAMOS CONVERSAR?</p><h2>Encontre o modelo ideal<br>para sua rotina.</h2></div><a class="button button-green" href="https://wa.me/message/5ED45F2RN6EWA1" target="_blank" rel="noopener">Fale com a Electric-Way <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a href="#inicio" class="footer-brand">ELECTRIC<span>WAY</span></a><p>Mobilidade elétrica · Lauro de Freitas – BA</p><span>© <span id="current-year"></span> Electric-Way</span></div></footer>
+
+  <dialog id="product-dialog" class="product-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><span class="dialog-kicker">ELECTRIC-WAY · DETALHES DO MODELO</span><button id="dialog-close" class="dialog-close" type="button" aria-label="Fechar detalhes">×</button></div><div id="dialog-content"></div></dialog>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
